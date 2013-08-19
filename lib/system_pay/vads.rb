@@ -86,12 +86,6 @@ module SystemPay
     @@certificat = '0000000000000000'
     cattr_accessor :certificat
     
-    #@@vads_shop_name = ''
-    #cattr_accessor :vads_shop_name
-
-    #@@vads_shop_url = ''
-    #cattr_accessor :vads_shop_url
-
     # transaction parameters are instance variables
     attr_accessor :vads_amount, :vads_available_languages, :vads_capture_delay, :vads_contracts, :vads_currency,
       :vads_cust_address, :vads_cust_cell_phone, :vads_cust_city, :vads_cust_country, :vads_cust_email, :vads_cust_id,
