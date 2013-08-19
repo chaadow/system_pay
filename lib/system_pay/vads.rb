@@ -86,11 +86,11 @@ module SystemPay
     @@certificat = '0000000000000000'
     cattr_accessor :certificat
     
-    @@vads_shop_name = ''
-    cattr_accessor :vads_shop_name
+    #@@vads_shop_name = ''
+    #cattr_accessor :vads_shop_name
 
-    @@vads_shop_url = ''
-    cattr_accessor :vads_shop_url
+    #@@vads_shop_url = ''
+    #cattr_accessor :vads_shop_url
 
     # transaction parameters are instance variables
     attr_accessor :vads_amount, :vads_available_languages, :vads_capture_delay, :vads_contracts, :vads_currency,
@@ -102,7 +102,7 @@ module SystemPay
       :vads_ship_to_city, :vads_ship_to_country, :vads_ship_to_name, :vads_ship_to_phone_num, :vads_ship_to_state,
       :vads_ship_to_street, :vads_ship_to_street2, :vads_ship_to_zip, :vads_theme_config, :vads_trans_date, 
       :vads_trans_id, :vads_url_cancel, :vads_url_error, :vads_url_referral, :vads_url_refused, :vads_url_success,
-      :vads_url_return, :vads_url_check, :vads_shop_url
+      :vads_url_return, :vads_url_check, :vads_shop_url, :vads_shop_name
 
     # Public: Creation of new instance.
     #         
